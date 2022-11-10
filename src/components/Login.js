@@ -26,7 +26,7 @@ const Login = () => {
       Swal.fire({
         icon: "success",
         title: "Wellcome!!👌",
-        text: "Enter a new World!!",
+        text: "Enter the new World!!",
       });
 
       const data = await res.json();
